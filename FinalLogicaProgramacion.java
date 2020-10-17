@@ -24,9 +24,26 @@ public class FinalLogicaProgramacion {
                 System.out.println(" .'  \\ /  `.   .'  \\ /  `.  .'  \\ /  `.   .'  \\ /  `.");
                 System.out.println("   /  :  \\       /  :  \\      /  :  \\      /  :  \\");
         }
+        public static void fallaste() {
+                System.out.println("( }{ }{ }{ }{ }{ }{ }{ }{ }{ }{ }{ }{ }{ }{ }{ )");
+                System.out.println(" X  X  X  X  X  X  X  X  X  X  X  X  X  X  X  X");
+                System.out.println("(_}{_}{_}{_}{_}{_}{_}{_}{_}{_}{_}{_}{_}{_}{_}{_)");
+                System.out.println(" X                                            X");
+                System.out.println(" X                                            X");
+                System.out.println(" X                                            X");
+                System.out.println(" X                                            X");
+                System.out.println(" X               No Acertaste :(              X");
+                System.out.println(" X                                            X");
+                System.out.println(" X                                            X");
+                System.out.println(" X                                            X");
+                System.out.println(" X                                            X");
+                System.out.println("( }{ }{ }{ }{ }{ }{ }{ }{ }{ }{ }{ }{ }{ }{ }{ )");
+                System.out.println(" X  X  X  X  X  X  X  X  X  X  X  X  X  X  X  X");
+                System.out.println("(_}{_}{_}{_}{_}{_}{_}{_}{_}{_}{_}{_}{_}{_}{_}{_)");
+        }
 
         public static void main(String[] args) {
-                System.out.println("Hola Mundo");
+                
         }
 
 }

@@ -361,4 +361,122 @@ public class Banderas {
             System.out.println();
         }
     }
+
+    public static void seychelles() {
+        String[] archivox = ConsoleFile.read("recursos/info_banderas.csv");
+
+        for (int n = 282; n < 300; n++) {
+            String[] archivo = archivox[n].split(";"); // Archivox es el documento sin comas
+            for (int i = 0; i < archivo.length; i++) {
+                switch (archivo[i]) {
+                    case "1":
+                        System.out.print(ConsoleColors.RED_BACKGROUND + "   ");
+                        break;
+                    case "2":
+                        System.out.print(ConsoleColors.BLUE_BACKGROUND + "   ");
+                        break;
+                    case "3":
+                        System.out.print(ConsoleColors.WHITE_BACKGROUND + "   ");
+                        break;
+                    case "4":
+                        System.out.print(ConsoleColors.YELLOW_BACKGROUND + "   ");
+                        break;
+                    case "5":
+                        System.out.print(ConsoleColors.GREEN_BACKGROUND + "   ");
+                        break;
+
+                    default:
+                        System.out.print("   ");
+                }
+                System.out.print(ConsoleColors.RESET);
+
+            }
+            System.out.println();
+        }
+    }
+
+    public static void gibraltar() {
+        String[] archivox = ConsoleFile.read("recursos/info_banderas.csv");
+
+        for (int n = 302; n < 320; n++) {
+            String[] archivo = archivox[n].split(";"); // Archivox es el documento sin comas
+            for (int i = 0; i < archivo.length; i++) {
+                switch (archivo[i]) {
+                    case "1":
+                        System.out.print(ConsoleColors.RED_BACKGROUND + "   ");
+                        break;
+                    case "3":
+                        System.out.print(ConsoleColors.WHITE_BACKGROUND + "   ");
+                        break;
+                    case "4":
+                        System.out.print(ConsoleColors.YELLOW_BACKGROUND + "   ");
+                        break;
+                    case "8":
+                        System.out.print(ConsoleColors.BLACK_BACKGROUND + "   ");
+                        break;
+
+                    default:
+                        System.out.print("   ");
+                }
+                System.out.print(ConsoleColors.RESET);
+
+            }
+            System.out.println();
+        }
+    }
+    public static void siria() {
+        String[] archivox = ConsoleFile.read("recursos/info_banderas.csv");
+
+        for (int n = 322; n < 340; n++) {
+            String[] archivo = archivox[n].split(";"); // Archivox es el documento sin comas
+            for (int i = 0; i < archivo.length; i++) {
+                switch (archivo[i]) {
+                    case "1":
+                        System.out.print(ConsoleColors.RED_BACKGROUND + "   ");
+                        break;
+                    case "3":
+                        System.out.print(ConsoleColors.WHITE_BACKGROUND + "   ");
+                        break;
+                    case "8":
+                        System.out.print(ConsoleColors.BLACK_BACKGROUND + "   ");
+                        break;
+                    case "5":
+                        System.out.print(ConsoleColors.GREEN_BACKGROUND + "   ");
+                        break;
+
+                    default:
+                        System.out.print("   ");
+                }
+                System.out.print(ConsoleColors.RESET);
+
+            }
+            System.out.println();
+        }
+    }
+    public static void rep_checa() {
+        String[] archivox = ConsoleFile.read("recursos/info_banderas.csv");
+
+        for (int n = 342; n < 360; n++) {
+            String[] archivo = archivox[n].split(";"); // Archivox es el documento sin comas
+            for (int i = 0; i < archivo.length; i++) {
+                switch (archivo[i]) {
+                    case "1":
+                        System.out.print(ConsoleColors.RED_BACKGROUND + "   ");
+                        break;
+                    case "2":
+                        System.out.print(ConsoleColors.BLUE_BACKGROUND + "   ");
+                        break;
+                    case "3":
+                        System.out.print(ConsoleColors.WHITE_BACKGROUND + "   ");
+                        break;
+
+                    default:
+                        System.out.print("   ");
+                }
+                System.out.print(ConsoleColors.RESET);
+
+            }
+            System.out.println();
+        }
+    }
 }

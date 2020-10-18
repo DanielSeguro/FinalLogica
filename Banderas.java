@@ -175,5 +175,81 @@ public class Banderas {
             System.out.println();
         }
     }
+    public static void noruega() {
+        String[] archivox = ConsoleFile.read("recursos/info_banderas.csv");
 
+        for (int n = 142; n < 160; n++) {
+            String[] archivo = archivox[n].split(";"); // Archivox es el documento sin comas
+            for (int i = 0; i < archivo.length; i++) {
+                switch (archivo[i]) {
+                    case "1":
+                    System.out.print(ConsoleColors.RED_BACKGROUND + "   ");
+                    break;
+                    case "3":
+                        System.out.print(ConsoleColors.WHITE_BACKGROUND + "   ");
+                        break;
+                    case "2":
+                        System.out.print(ConsoleColors.BLUE_BACKGROUND + "   ");
+                        break;
+
+                    default:
+                        System.out.print("   ");
+                }
+                System.out.print(ConsoleColors.RESET);
+
+            }
+            System.out.println();
+        }
+    }
+    public static void isla_pascua() {
+        String[] archivox = ConsoleFile.read("recursos/info_banderas.csv");
+
+        for (int n = 162; n < 180; n++) {
+            String[] archivo = archivox[n].split(";"); // Archivox es el documento sin comas
+            for (int i = 0; i < archivo.length; i++) {
+                switch (archivo[i]) {
+                    case "1":
+                    System.out.print(ConsoleColors.RED_BACKGROUND + "   ");
+                    break;
+                    case "3":
+                        System.out.print(ConsoleColors.WHITE_BACKGROUND + "   ");
+                        break;
+                   
+
+                    default:
+                        System.out.print("   ");
+                }
+                System.out.print(ConsoleColors.RESET);
+
+            }
+            System.out.println();
+        }
+    }
+    public static void romania() {
+        String[] archivox = ConsoleFile.read("recursos/info_banderas.csv");
+
+        for (int n = 182; n < 200; n++) {
+            String[] archivo = archivox[n].split(";"); // Archivox es el documento sin comas
+            for (int i = 0; i < archivo.length; i++) {
+                switch (archivo[i]) {
+                    case "1":
+                        System.out.print(ConsoleColors.RED_BACKGROUND + "   ");
+                        break;
+                    case "2":
+                        System.out.print(ConsoleColors.BLUE_BACKGROUND + "   ");
+                        break;
+                    case "4":
+                        System.out.print(ConsoleColors.YELLOW_BACKGROUND + "   ");
+                        break;
+
+                    default:
+                        System.out.print("   ");
+                }
+                System.out.print(ConsoleColors.RESET);
+
+            }
+            System.out.println();
+        }
+    }
+  
 }

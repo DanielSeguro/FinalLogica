@@ -162,4 +162,27 @@ public class Ascii {
                 System.out.println("    |  /                                    /.");
                 System.out.println("    \\_/____________________________________/.");
         }
+        public static void agradecer() {
+                System.out.println("            .-\"-,-\"-.          .-\"-,-\"-.          .-\"-,-\"-.");
+                System.out.println("      _.-._(         ).-._.-._(         ).-._.-._(         ).-._");
+                System.out.println("    .'_.-._.`.     .'_.-._.-._.`.     .'_.-._.-._.`.     .'_.-._`.");
+                System.out.println("   ( (        `._.'              `._.'              `._.'       ) )");
+                System.out.println("    ) )                                                        ( (");
+                System.out.println(" .-\"-,-\"-.                                                   .-\"-,-\"-.");
+                System.out.println("(         )                                                 (         )");
+                System.out.println(" `.     .'                                                   `.     .'");
+                System.out.println("   `._.'                                                       `._.'");
+                System.out.println("    ) )                                                         ( (");
+                System.out.println("   ( (     GRACIAS POR JUGAR, ESPERAMOS QUE HAYAS DISFRUTADO!    ) )");
+                System.out.println("    ) )                                                         ( (");
+                System.out.println(" .-\"-,-\"-.                                                   .-\"-,-\"-.");
+                System.out.println("(         )                                                 (         )");
+                System.out.println(" `.     .'                                                   `.     .'");
+                System.out.println("   `._.'                                                       `._.'");
+                System.out.println("    ( (                                                          ) )");
+                System.out.println("     ) )     .-\"-,-\"-.          .-\"-,-\"-.          .-\"-,-\"-.    ( (");
+                System.out.println("    ( (_.-._(         ).-._.-._(         ).-._.-._(         ).-._) )");
+                System.out.println("     `._.-._.`.     .'_.-._.-._.`.     .'_.-._.-._.`.     .'_.-._,'");
+                System.out.println("               `._.'              `._.'              `._.'");
+        }
 }

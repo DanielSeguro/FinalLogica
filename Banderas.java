@@ -606,4 +606,59 @@ public class Banderas {
             System.out.println();
         }
     }
+    public static void gambia() {
+        String[] archivox = ConsoleFile.read("recursos/info_banderas.csv");
+
+        for (int n = 462; n < 480; n++) {
+            String[] archivo = archivox[n].split(";"); // Archivox es el documento sin comas
+            for (int i = 0; i < archivo.length; i++) {
+                switch (archivo[i]) {
+                    case "1":
+                        System.out.print(ConsoleColors.RED_BACKGROUND + "   ");
+                        break;
+                    case "2":
+                        System.out.print(ConsoleColors.BLUE_BACKGROUND + "   ");
+                        break;
+                    case "3":
+                        System.out.print(ConsoleColors.WHITE_BACKGROUND + "   ");
+                        break;
+                        case "5":
+                        System.out.print(ConsoleColors.GREEN_BACKGROUND + "   ");
+                        break;
+
+                    default:
+                        System.out.print("   ");
+                }
+                System.out.print(ConsoleColors.RESET);
+
+            }
+            System.out.println();
+        }
+    }
+    public static void chile() {
+        String[] archivox = ConsoleFile.read("recursos/info_banderas.csv");
+
+        for (int n = 482; n < 500; n++) {
+            String[] archivo = archivox[n].split(";"); // Archivox es el documento sin comas
+            for (int i = 0; i < archivo.length; i++) {
+                switch (archivo[i]) {
+                    case "1":
+                        System.out.print(ConsoleColors.RED_BACKGROUND + "   ");
+                        break;
+                    case "2":
+                        System.out.print(ConsoleColors.BLUE_BACKGROUND + "   ");
+                        break;
+                    case "3":
+                        System.out.print(ConsoleColors.WHITE_BACKGROUND + "   ");
+                        break;
+
+                    default:
+                        System.out.print("   ");
+                }
+                System.out.print(ConsoleColors.RESET);
+
+            }
+            System.out.println();
+        }
+    }
 }

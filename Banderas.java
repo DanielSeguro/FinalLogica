@@ -528,4 +528,82 @@ public class Banderas {
             System.out.println();
         }
     }
+    public static void cuba() {
+        String[] archivox = ConsoleFile.read("recursos/info_banderas.csv");
+
+        for (int n = 402; n < 420; n++) {
+            String[] archivo = archivox[n].split(";"); // Archivox es el documento sin comas
+            for (int i = 0; i < archivo.length; i++) {
+                switch (archivo[i]) {
+                    case "1":
+                        System.out.print(ConsoleColors.RED_BACKGROUND + "   ");
+                        break;
+                    case "2":
+                        System.out.print(ConsoleColors.BLUE_BACKGROUND + "   ");
+                        break;
+                    case "3":
+                        System.out.print(ConsoleColors.WHITE_BACKGROUND + "   ");
+                        break;
+
+                    default:
+                        System.out.print("   ");
+                }
+                System.out.print(ConsoleColors.RESET);
+
+            }
+            System.out.println();
+        }
+    }
+    public static void rusia() {
+        String[] archivox = ConsoleFile.read("recursos/info_banderas.csv");
+
+        for (int n = 422; n < 440; n++) {
+            String[] archivo = archivox[n].split(";"); // Archivox es el documento sin comas
+            for (int i = 0; i < archivo.length; i++) {
+                switch (archivo[i]) {
+                    case "1":
+                        System.out.print(ConsoleColors.RED_BACKGROUND + "   ");
+                        break;
+                    case "2":
+                        System.out.print(ConsoleColors.BLUE_BACKGROUND + "   ");
+                        break;
+                    case "3":
+                        System.out.print(ConsoleColors.WHITE_BACKGROUND + "   ");
+                        break;
+
+                    default:
+                        System.out.print("   ");
+                }
+                System.out.print(ConsoleColors.RESET);
+
+            }
+            System.out.println();
+        }
+    }
+    public static void sri_lanka() {
+        String[] archivox = ConsoleFile.read("recursos/info_banderas.csv");
+
+        for (int n = 442; n < 460; n++) {
+            String[] archivo = archivox[n].split(";"); // Archivox es el documento sin comas
+            for (int i = 0; i < archivo.length; i++) {
+                switch (archivo[i]) {
+                    case "1":
+                        System.out.print(ConsoleColors.RED_BACKGROUND + "   ");
+                        break;
+                    case "4":
+                        System.out.print(ConsoleColors.YELLOW_BACKGROUND + "   ");
+                        break;
+                    case "5":
+                        System.out.print(ConsoleColors.GREEN_BACKGROUND + "   ");
+                        break;
+
+                    default:
+                        System.out.print("   ");
+                }
+                System.out.print(ConsoleColors.RESET);
+
+            }
+            System.out.println();
+        }
+    }
 }

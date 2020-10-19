@@ -1,6 +1,6 @@
 
 public class cuestionariopais {
-    public static gran_Breta() {
+    public static void gran_Breta() {
         Banderas.gran_Breta();
         Ascii.capital();
         System.out.print("Su respuesta es: ");
@@ -9,7 +9,6 @@ public class cuestionariopais {
         respuesta = respuesta.toUpperCase();
         if (respuesta.equals(capital)) {
           Ascii.acertaste();
-          puntaje = puntaje + 300;
         } else {
           Ascii.fallaste();
           System.out.println("Respuesta correcta: " + capital);
@@ -36,7 +35,7 @@ public class cuestionariopais {
           Ascii.acertaste();
         } else {
           Ascii.fallaste();
-          System.out.println("Respuesta correcta: " + idioma);
+          System.out.println("Respuesta correcta: " + continente);
         }
     
       }
@@ -53,9 +52,32 @@ public class cuestionariopais {
         } else {
           Ascii.fallaste();
           System.out.println("Respuesta correcta: " + capital);
-          System.out.println("Respuesta correcta: " + puntaje);
         }
-      }
+
+          Ascii.idioma();
+        System.out.print("Su respuesta es: ");
+        String respuesta1 = ConsoleInput.getString();
+        String idioma = "ESPANOL";
+        respuesta1 = respuesta1.toUpperCase();
+        if (respuesta1.equals(idioma)) {
+          Ascii.acertaste();
+        } else {
+          Ascii.fallaste();
+          System.out.println("Respuesta correcta: " + idioma);
+        }
+    
+        Ascii.continente();
+        System.out.print("Su respuesta es: ");
+        String respuesta2 = ConsoleInput.getString();
+        String continente = "AMERICA";
+        respuesta2 = respuesta2.toUpperCase();
+        if (respuesta2.equals(continente)) {
+          Ascii.acertaste();
+        } else {
+          Ascii.fallaste();
+          System.out.println("Respuesta correcta: " + continente);
+        }
+        }
     
       public static void peru() {
         Banderas.peru();
@@ -70,7 +92,29 @@ public class cuestionariopais {
           Ascii.fallaste();
           System.out.println("Respuesta correcta: " + capital);
         }
+        Ascii.idioma();
+        System.out.print("Su respuesta es: ");
+        String respuesta1 = ConsoleInput.getString();
+        String idioma = "ESPANOL";
+        respuesta1 = respuesta1.toUpperCase();
+        if (respuesta1.equals(idioma)) {
+          Ascii.acertaste();
+        } else {
+          Ascii.fallaste();
+          System.out.println("Respuesta correcta: " + idioma);
+        }
     
+        Ascii.continente();
+        System.out.print("Su respuesta es: ");
+        String respuesta2 = ConsoleInput.getString();
+        String continente = "AMERICA";
+        respuesta2 = respuesta2.toUpperCase();
+        if (respuesta2.equals(continente)) {
+          Ascii.acertaste();
+        } else {
+          Ascii.fallaste();
+          System.out.println("Respuesta correcta: " + continente);
+        }
       }
     
       public static void polonia() {
@@ -85,6 +129,29 @@ public class cuestionariopais {
         } else {
           Ascii.fallaste();
           System.out.println("Respuesta correcta: " + capital);
+        }
+        Ascii.idioma();
+        System.out.print("Su respuesta es: ");
+        String respuesta1 = ConsoleInput.getString();
+        String idioma = "POLACO";
+        respuesta1 = respuesta1.toUpperCase();
+        if (respuesta1.equals(idioma)) {
+          Ascii.acertaste();
+        } else {
+          Ascii.fallaste();
+          System.out.println("Respuesta correcta: " + idioma);
+        }
+    
+        Ascii.continente();
+        System.out.print("Su respuesta es: ");
+        String respuesta2 = ConsoleInput.getString();
+        String continente = "EUROPA";
+        respuesta2 = respuesta2.toUpperCase();
+        if (respuesta2.equals(continente)) {
+          Ascii.acertaste();
+        } else {
+          Ascii.fallaste();
+          System.out.println("Respuesta correcta: " + continente);
         }
       }
     
@@ -173,4 +240,4 @@ public class cuestionariopais {
       }
     }
   
-}
+

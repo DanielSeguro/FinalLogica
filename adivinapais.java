@@ -231,5 +231,17 @@ public class adivinapais {
             System.out.println("Respuesta correcta: Romania");
         }
     }
+    public static void adivina() {
+        adivinapais.alemania();
+        adivinapais.chile();;
+        adivinapais.colombia();
+        adivinapais.cuba();
+        adivinapais.gran_Breta();
+        adivinapais.indonesia();
+        adivinapais.noruega();
+        adivinapais.peru();
+        adivinapais.polonia();
+        adivinapais.romania();
+           }
 
 }

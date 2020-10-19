@@ -563,43 +563,380 @@ public class cuestionariopais {
       }
     
       public static void gibraltar() {
+        Banderas.gibraltar();
+        Ascii.idioma();
+        System.out.print("Su respuesta es: ");
+        String respuesta1 = ConsoleInput.getString();
+        String idioma = "INGLES";
+        respuesta1 = respuesta1.toUpperCase();
+        if (respuesta1.equals(idioma)) {
+          Ascii.acertaste();
+        } else {
+          Ascii.fallaste();
+          System.out.println("Respuesta correcta: " + idioma);
+        }
+    
+        Ascii.continente();
+        System.out.print("Su respuesta es: ");
+        String respuesta2 = ConsoleInput.getString();
+        String continente = "EUROPA";
+        respuesta2 = respuesta2.toUpperCase();
+        if (respuesta2.equals(continente)) {
+          Ascii.acertaste();
+        } else {
+          Ascii.fallaste();
+          System.out.println("Respuesta correcta: " + continente);
+        }
     
       }
     
       public static void siria() {
+        Banderas.siria();
+        Ascii.capital();
+        System.out.print("Su respuesta es: ");
+        String respuesta = ConsoleInput.getString();
+        String capital = "DAMASCO";
+        respuesta = respuesta.toUpperCase();
+        if (respuesta.equals(capital)) {
+          Ascii.acertaste();
+        } else {
+          Ascii.fallaste();
+          System.out.println("Respuesta correcta: " + capital);
+        }
+        Ascii.idioma();
+        System.out.print("Su respuesta es: ");
+        String respuesta1 = ConsoleInput.getString();
+        String idioma = "ARABE";
+        respuesta1 = respuesta1.toUpperCase();
+        if (respuesta1.equals(idioma)) {
+          Ascii.acertaste();
+        } else {
+          Ascii.fallaste();
+          System.out.println("Respuesta correcta: " + idioma);
+        }
+    
+        Ascii.continente();
+        System.out.print("Su respuesta es: ");
+        String respuesta2 = ConsoleInput.getString();
+        String continente = "ASIA";
+        respuesta2 = respuesta2.toUpperCase();
+        if (respuesta2.equals(continente)) {
+          Ascii.acertaste();
+        } else {
+          Ascii.fallaste();
+          System.out.println("Respuesta correcta: " + continente);
+        }
     
       }
     
       public static void rep_checa() {
+        Banderas.rep_checa();
+        Ascii.capital();
+        System.out.print("Su respuesta es: ");
+        String respuesta = ConsoleInput.getString();
+        String capital = "PRAGA";
+        respuesta = respuesta.toUpperCase();
+        if (respuesta.equals(capital)) {
+          Ascii.acertaste();
+        } else {
+          Ascii.fallaste();
+          System.out.println("Respuesta correcta: " + capital);
+        }
+        Ascii.idioma();
+        System.out.print("Su respuesta es: ");
+        String respuesta1 = ConsoleInput.getString();
+        String idioma = "CHECO";
+        respuesta1 = respuesta1.toUpperCase();
+        if (respuesta1.equals(idioma)) {
+          Ascii.acertaste();
+        } else {
+          Ascii.fallaste();
+          System.out.println("Respuesta correcta: " + idioma);
+        }
     
+        Ascii.continente();
+        System.out.print("Su respuesta es: ");
+        String respuesta2 = ConsoleInput.getString();
+        String continente = "EUROPA";
+        respuesta2 = respuesta2.toUpperCase();
+        if (respuesta2.equals(continente)) {
+          Ascii.acertaste();
+        } else {
+          Ascii.fallaste();
+          System.out.println("Respuesta correcta: " + continente);
+        }
       }
     
       public static void libano() {
+        Banderas.libano();
+        Ascii.capital();
+        System.out.print("Su respuesta es: ");
+        String respuesta = ConsoleInput.getString();
+        String capital = "BEIRUT";
+        respuesta = respuesta.toUpperCase();
+        if (respuesta.equals(capital)) {
+          Ascii.acertaste();
+        } else {
+          Ascii.fallaste();
+          System.out.println("Respuesta correcta: " + capital);
+        }
+        Ascii.idioma();
+        System.out.print("Su respuesta es: ");
+        String respuesta1 = ConsoleInput.getString();
+        String idioma = "ARABE";
+        respuesta1 = respuesta1.toUpperCase();
+        if (respuesta1.equals(idioma)) {
+          Ascii.acertaste();
+        } else {
+          Ascii.fallaste();
+          System.out.println("Respuesta correcta: " + idioma);
+        }
+    
+        Ascii.continente();
+        System.out.print("Su respuesta es: ");
+        String respuesta2 = ConsoleInput.getString();
+        String continente = "ASIA";
+        respuesta2 = respuesta2.toUpperCase();
+        if (respuesta2.equals(continente)) {
+          Ascii.acertaste();
+        } else {
+          Ascii.fallaste();
+          System.out.println("Respuesta correcta: " + continente);
+        }
     
       }
     
       public static void escocia() {
+        Banderas.escocia();
+        Ascii.capital();
+        System.out.print("Su respuesta es: ");
+        String respuesta = ConsoleInput.getString();
+        String capital = "EDIMBURGO";
+        respuesta = respuesta.toUpperCase();
+        if (respuesta.equals(capital)) {
+          Ascii.acertaste();
+        } else {
+          Ascii.fallaste();
+          System.out.println("Respuesta correcta: " + capital);
+        }
+        Ascii.idioma();
+        System.out.print("Su respuesta es: ");
+        String respuesta1 = ConsoleInput.getString();
+        String idioma = "INGLES";
+        respuesta1 = respuesta1.toUpperCase();
+        if (respuesta1.equals(idioma)) {
+          Ascii.acertaste();
+        } else {
+          Ascii.fallaste();
+          System.out.println("Respuesta correcta: " + idioma);
+        }
+    
+        Ascii.continente();
+        System.out.print("Su respuesta es: ");
+        String respuesta2 = ConsoleInput.getString();
+        String continente = "EUROPA";
+        respuesta2 = respuesta2.toUpperCase();
+        if (respuesta2.equals(continente)) {
+          Ascii.acertaste();
+        } else {
+          Ascii.fallaste();
+          System.out.println("Respuesta correcta: " + continente);
+        }
     
       }
     
       public static void cuba() {
+        Banderas.cuba();
+        Ascii.capital();
+        System.out.print("Su respuesta es: ");
+        String respuesta = ConsoleInput.getString();
+        String capital = "LA HABANA";
+        respuesta = respuesta.toUpperCase();
+        if (respuesta.equals(capital)) {
+          Ascii.acertaste();
+        } else {
+          Ascii.fallaste();
+          System.out.println("Respuesta correcta: " + capital);
+        }
+        Ascii.idioma();
+        System.out.print("Su respuesta es: ");
+        String respuesta1 = ConsoleInput.getString();
+        String idioma = "ESPANOL";
+        respuesta1 = respuesta1.toUpperCase();
+        if (respuesta1.equals(idioma)) {
+          Ascii.acertaste();
+        } else {
+          Ascii.fallaste();
+          System.out.println("Respuesta correcta: " + idioma);
+        }
+    
+        Ascii.continente();
+        System.out.print("Su respuesta es: ");
+        String respuesta2 = ConsoleInput.getString();
+        String continente = "AMERICA";
+        respuesta2 = respuesta2.toUpperCase();
+        if (respuesta2.equals(continente)) {
+          Ascii.acertaste();
+        } else {
+          Ascii.fallaste();
+          System.out.println("Respuesta correcta: " + continente);
+        }
     
       }
     
       public static void rusia() {
+        Banderas.rusia();
+        Ascii.capital();
+        System.out.print("Su respuesta es: ");
+        String respuesta = ConsoleInput.getString();
+        String capital = "MOSCU";
+        respuesta = respuesta.toUpperCase();
+        if (respuesta.equals(capital)) {
+          Ascii.acertaste();
+        } else {
+          Ascii.fallaste();
+          System.out.println("Respuesta correcta: " + capital);
+        }
+        Ascii.idioma();
+        System.out.print("Su respuesta es: ");
+        String respuesta1 = ConsoleInput.getString();
+        String idioma = "RUSO";
+        respuesta1 = respuesta1.toUpperCase();
+        if (respuesta1.equals(idioma)) {
+          Ascii.acertaste();
+        } else {
+          Ascii.fallaste();
+          System.out.println("Respuesta correcta: " + idioma);
+        }
+    
+        Ascii.continente();
+        System.out.print("Su respuesta es: ");
+        String respuesta2 = ConsoleInput.getString();
+        String continente = "EUROPA";
+        respuesta2 = respuesta2.toUpperCase();
+        if (respuesta2.equals(continente)) {
+          Ascii.acertaste();
+        } else {
+          Ascii.fallaste();
+          System.out.println("Respuesta correcta: " + continente);
+        }
     
       }
     
       public static void sri_lanka() {
+        Banderas.sri_lanka();
+        Ascii.capital();
+        System.out.print("Su respuesta es: ");
+        String respuesta = ConsoleInput.getString();
+        String capital = "KOTTE";
+        respuesta = respuesta.toUpperCase();
+        if (respuesta.equals(capital)) {
+          Ascii.acertaste();
+        } else {
+          Ascii.fallaste();
+          System.out.println("Respuesta correcta: " + capital);
+        }
+        Ascii.idioma();
+        System.out.print("Su respuesta es: ");
+        String respuesta1 = ConsoleInput.getString();
+        String idioma = "CINGALES";
+        respuesta1 = respuesta1.toUpperCase();
+        if (respuesta1.equals(idioma)) {
+          Ascii.acertaste();
+        } else {
+          Ascii.fallaste();
+          System.out.println("Respuesta correcta: " + idioma);
+        }
+    
+        Ascii.continente();
+        System.out.print("Su respuesta es: ");
+        String respuesta2 = ConsoleInput.getString();
+        String continente = "ASIA";
+        respuesta2 = respuesta2.toUpperCase();
+        if (respuesta2.equals(continente)) {
+          Ascii.acertaste();
+        } else {
+          Ascii.fallaste();
+          System.out.println("Respuesta correcta: " + continente);
+        }
     
       }
     
       public static void gambia() {
+        Banderas.gambia();
+        Ascii.capital();
+        System.out.print("Su respuesta es: ");
+        String respuesta = ConsoleInput.getString();
+        String capital = "BANJUL";
+        respuesta = respuesta.toUpperCase();
+        if (respuesta.equals(capital)) {
+          Ascii.acertaste();
+        } else {
+          Ascii.fallaste();
+          System.out.println("Respuesta correcta: " + capital);
+        }
+        Ascii.idioma();
+        System.out.print("Su respuesta es: ");
+        String respuesta1 = ConsoleInput.getString();
+        String idioma = "INGLES";
+        respuesta1 = respuesta1.toUpperCase();
+        if (respuesta1.equals(idioma)) {
+          Ascii.acertaste();
+        } else {
+          Ascii.fallaste();
+          System.out.println("Respuesta correcta: " + idioma);
+        }
+    
+        Ascii.continente();
+        System.out.print("Su respuesta es: ");
+        String respuesta2 = ConsoleInput.getString();
+        String continente = "AFRICA";
+        respuesta2 = respuesta2.toUpperCase();
+        if (respuesta2.equals(continente)) {
+          Ascii.acertaste();
+        } else {
+          Ascii.fallaste();
+          System.out.println("Respuesta correcta: " + continente);
+        }
     
       }
     
       public static void chile() {
+        Banderas.chile();
+        Ascii.capital();
+        System.out.print("Su respuesta es: ");
+        String respuesta = ConsoleInput.getString();
+        String capital = "SANTIAGO";
+        respuesta = respuesta.toUpperCase();
+        if (respuesta.equals(capital)) {
+          Ascii.acertaste();
+        } else {
+          Ascii.fallaste();
+          System.out.println("Respuesta correcta: " + capital);
+        }
+        Ascii.idioma();
+        System.out.print("Su respuesta es: ");
+        String respuesta1 = ConsoleInput.getString();
+        String idioma = "ESPANOL";
+        respuesta1 = respuesta1.toUpperCase();
+        if (respuesta1.equals(idioma)) {
+          Ascii.acertaste();
+        } else {
+          Ascii.fallaste();
+          System.out.println("Respuesta correcta: " + idioma);
+        }
     
+        Ascii.continente();
+        System.out.print("Su respuesta es: ");
+        String respuesta2 = ConsoleInput.getString();
+        String continente = "AMERICA";
+        respuesta2 = respuesta2.toUpperCase();
+        if (respuesta2.equals(continente)) {
+          Ascii.acertaste();
+        } else {
+          Ascii.fallaste();
+          System.out.println("Respuesta correcta: " + continente);
+        }
       }
     }
   

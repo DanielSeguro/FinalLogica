@@ -162,6 +162,7 @@ public class Ascii {
                 System.out.println("    |  /                                    /.");
                 System.out.println("    \\_/____________________________________/.");
         }
+
         public static void agradecer() {
                 System.out.println("            .-\"-,-\"-.          .-\"-,-\"-.          .-\"-,-\"-.");
                 System.out.println("      _.-._(         ).-._.-._(         ).-._.-._(         ).-._");
@@ -185,4 +186,12 @@ public class Ascii {
                 System.out.println("     `._.-._.`.     .'_.-._.-._.`.     .'_.-._.-._.`.     .'_.-._,'");
                 System.out.println("               `._.'              `._.'              `._.'");
         }
+
+        public static void adivinapais() {
+                System.out.println("  _, _,_ __,   __,  _, _  _,   __,  _,  ");
+                System.out.println(" / \\ | | |_    |_) /_\\ | (_    |_  (_  ( )");
+                System.out.println(" \\/ | | |     |   | | | , )   |   , )  / ");
+                System.out.println("  ~` `~' ~~~   ~   ~ ~ ~  ~    ~~~  ~   . ");
+        }
+
 }

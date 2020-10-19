@@ -1,7 +1,6 @@
 
 public class cuestionariopais {
     public static gran_Breta() {
-        int puntaje = 0;
         Banderas.gran_Breta();
         Ascii.capital();
         System.out.print("Su respuesta es: ");
@@ -15,8 +14,7 @@ public class cuestionariopais {
           Ascii.fallaste();
           System.out.println("Respuesta correcta: " + capital);
         }
-        return puntaje;
-    
+     
         Ascii.idioma();
         System.out.print("Su respuesta es: ");
         String respuesta1 = ConsoleInput.getString();

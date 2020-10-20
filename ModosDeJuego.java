@@ -1,7 +1,7 @@
 public class ModosDeJuego{
 
   
-	public static void mainCuestionario{
+	public static void juego1(){
 		int puntuacion = 0;
 		int acumulado = 0;
 
@@ -116,9 +116,99 @@ public class ModosDeJuego{
             break;
           default:
             System.out.print("Elija opcion valida");
-    }}
+    }
+  }
     while (opcion != 26);
+  }
+  public static void juego3(){
+
+      int opcion = 0;
+      do {
+      Ascii.paises();
+      opcion = ConsoleInput.getInt();
+      if (opcion == 1) {
+        Banderas.gran_Breta();
+      }
+      else if (opcion == 2) {
+        Banderas.colombia();
+      }
+      else if (opcion == 3) {
+        Banderas.peru();
+      }
+      else if (opcion == 4) {
+        Banderas.polonia();
+      }
+      else if (opcion == 5) {
+        Banderas.indonesia();
+      }
+      else if (opcion == 6) {
+        Banderas.italia();
+      }
+      else if (opcion == 7) {
+        Banderas.nigeria();
+      }
+      else if (opcion == 8) {
+        Banderas.noruega();
+      }
+      else if (opcion == 9) {
+        Banderas.isla_pascua();
+      }
+      else if (opcion == 10) {
+        Banderas.romania();
+      }
+      else if (opcion == 11) {
+        Banderas.alemania();
+      }
+      else if (opcion == 12) {
+        Banderas.japon();
+      }
+      else if (opcion == 13) {
+        Banderas.aland();
+      }
+      else if (opcion == 14) {
+        Banderas.corea_sur();
+      }
+      else if (opcion == 15) {
+        Banderas.seychelles();
+      }
+      else if (opcion == 16) {
+        Banderas.gibraltar();
+      }
+      else if (opcion == 17) {
+        Banderas.siria();
+      }
+      else if (opcion == 18) {
+        Banderas.rep_checa();
+      }
+      else if (opcion == 19) {
+        Banderas.libano();
+      }
+      else if (opcion == 20) {
+        Banderas.escocia();
+      }
+      else if (opcion == 21) {
+        Banderas.cuba();
+      }
+      else if (opcion == 22) {
+        Banderas.rusia();
+      }
+      else if (opcion == 23) {
+        Banderas.sri_lanka();
+      }
+      else if (opcion == 24) {
+        Banderas.gambia();
+      }
+      else if (opcion == 25) {
+        Banderas.chile();}
+        else if (opcion == 26) {
+          
+      }
+      else {
+        System.out.println("Ingrese opcion valida");
+      }
+    }while (opcion !=26);
+
+}
   }
 
 
-}

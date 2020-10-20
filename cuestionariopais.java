@@ -10,7 +10,7 @@ public class cuestionariopais {
         if (respuesta.equals(capital)) {
           Ascii.acertaste();
           a=a+1;
-          System.out.println("Puntos ganados esta ronda: "+a);
+         
         } else {
           Ascii.fallaste();
           System.out.println("Respuesta correcta: " + capital);
@@ -24,7 +24,7 @@ public class cuestionariopais {
         if (respuesta1.equals(idioma)) {
           Ascii.acertaste();
           a=a+1;
-          System.out.println("Puntos ganados esta ronda: "+a);
+         
         } else {
           Ascii.fallaste();
           System.out.println("Respuesta correcta: " + idioma);
@@ -38,7 +38,7 @@ public class cuestionariopais {
         if (respuesta2.equals(continente)) {
           Ascii.acertaste();
           a=a+1;
-          System.out.println("Puntos ganados esta ronda: "+a);
+         
         } else {
           Ascii.fallaste();
           System.out.println("Respuesta correcta: " + continente);
@@ -56,7 +56,7 @@ public class cuestionariopais {
         if (respuesta.equals(capital)) {
           Ascii.acertaste();
            a=a+1;
-          System.out.println("Puntos ganados esta ronda: "+a);
+         
         } else {
           Ascii.fallaste();
           System.out.println("Respuesta correcta: " + capital);
@@ -70,7 +70,7 @@ public class cuestionariopais {
         if (respuesta1.equals(idioma)) {
           Ascii.acertaste();
            a=a+1;
-          System.out.println("Puntos ganados esta ronda: "+a);
+         
         } else {
           Ascii.fallaste();
           System.out.println("Respuesta correcta: " + idioma);
@@ -84,7 +84,7 @@ public class cuestionariopais {
         if (respuesta2.equals(continente)) {
           Ascii.acertaste();
            a=a+1;
-          System.out.println("Puntos ganados esta ronda: "+a);
+         
         } else {
           Ascii.fallaste();
           System.out.println("Respuesta correcta: " + continente);
@@ -102,7 +102,7 @@ public class cuestionariopais {
         if (respuesta.equals(capital)) {
           Ascii.acertaste();
            a=a+1;
-          System.out.println("Puntos ganados esta ronda: "+a);
+         
         } else {
           Ascii.fallaste();
           System.out.println("Respuesta correcta: " + capital);
@@ -115,7 +115,7 @@ public class cuestionariopais {
         if (respuesta1.equals(idioma)) {
           Ascii.acertaste();
            a=a+1;
-          System.out.println("Puntos ganados esta ronda: "+a);
+         
         } else {
           Ascii.fallaste();
           System.out.println("Respuesta correcta: " + idioma);
@@ -129,7 +129,7 @@ public class cuestionariopais {
         if (respuesta2.equals(continente)) {
           Ascii.acertaste();
            a=a+1;
-          System.out.println("Puntos ganados esta ronda: "+a);
+         
         } else {
           Ascii.fallaste();
           System.out.println("Respuesta correcta: " + continente);
@@ -147,7 +147,7 @@ public class cuestionariopais {
         if (respuesta.equals(capital)) {
           Ascii.acertaste();
           a=a+1;
-          System.out.println("Puntos ganados esta ronda: "+a);
+         
         } else {
           Ascii.fallaste();
           System.out.println("Respuesta correcta: " + capital);
@@ -160,7 +160,7 @@ public class cuestionariopais {
         if (respuesta1.equals(idioma)) {
           Ascii.acertaste();
           a=a+1;
-          System.out.println("Puntos ganados esta ronda: "+a);
+         
         } else {
           Ascii.fallaste();
           System.out.println("Respuesta correcta: " + idioma);
@@ -174,7 +174,7 @@ public class cuestionariopais {
         if (respuesta2.equals(continente)) {
           Ascii.acertaste();
           a=a+1;
-          System.out.println("Puntos ganados esta ronda: "+a);
+         
         } else {
           Ascii.fallaste();
           System.out.println("Respuesta correcta: " + continente);
@@ -192,7 +192,7 @@ public class cuestionariopais {
         if (respuesta.equals(capital)) {
           Ascii.acertaste();
           a=a+1;
-          System.out.println("Puntos ganados esta ronda: "+a);
+         
         } else {
           Ascii.fallaste();
           System.out.println("Respuesta correcta: " + capital);
@@ -205,7 +205,7 @@ public class cuestionariopais {
         if (respuesta1.equals(idioma)) {
           Ascii.acertaste();
           a=a+1;
-          System.out.println("Puntos ganados esta ronda: "+a);
+         
         } else {
           Ascii.fallaste();
           System.out.println("Respuesta correcta: " + idioma);
@@ -219,7 +219,7 @@ public class cuestionariopais {
         if (respuesta2.equals(continente)) {
           Ascii.acertaste();
           a=a+1;
-          System.out.println("Puntos ganados esta ronda: "+a);
+         
         } else {
           Ascii.fallaste();
           System.out.println("Respuesta correcta: " + continente);
@@ -237,7 +237,7 @@ public class cuestionariopais {
         if (respuesta.equals(capital)) {
           Ascii.acertaste();
           a=a+1;
-          System.out.println("Puntos ganados esta ronda: "+a);
+         
         } else {
           Ascii.fallaste();
           System.out.println("Respuesta correcta: " + capital);
@@ -250,7 +250,7 @@ public class cuestionariopais {
         if (respuesta1.equals(idioma)) {
           Ascii.acertaste();
           a=a+1;
-          System.out.println("Puntos ganados esta ronda: "+a);
+         
         } else {
           Ascii.fallaste();
           System.out.println("Respuesta correcta: " + idioma);
@@ -264,7 +264,7 @@ public class cuestionariopais {
         if (respuesta2.equals(continente)) {
           Ascii.acertaste();
           a=a+1;
-          System.out.println("Puntos ganados esta ronda: "+a);
+         
         } else {
           Ascii.fallaste();
           System.out.println("Respuesta correcta: " + continente);
@@ -282,7 +282,7 @@ public class cuestionariopais {
         if (respuesta.equals(capital)) {
           Ascii.acertaste();
           a=a+1;
-          System.out.println("Puntos ganados esta ronda: "+a);
+         
         } else {
           Ascii.fallaste();
           System.out.println("Respuesta correcta: " + capital);
@@ -295,7 +295,7 @@ public class cuestionariopais {
         if (respuesta1.equals(idioma)) {
           Ascii.acertaste();
           a=a+1;
-          System.out.println("Puntos ganados esta ronda: "+a);
+         
         } else {
           Ascii.fallaste();
           System.out.println("Respuesta correcta: " + idioma);
@@ -309,7 +309,7 @@ public class cuestionariopais {
         if (respuesta2.equals(continente)) {
           Ascii.acertaste();
           a=a+1;
-          System.out.println("Puntos ganados esta ronda: "+a);
+         
         } else {
           Ascii.fallaste();
           System.out.println("Respuesta correcta: " + continente);
@@ -327,7 +327,7 @@ public class cuestionariopais {
         if (respuesta.equals(capital)) {
           Ascii.acertaste();
           a=a+1;
-          System.out.println("Puntos ganados esta ronda: "+a);
+         
         } else {
           Ascii.fallaste();
           System.out.println("Respuesta correcta: " + capital);
@@ -340,7 +340,7 @@ public class cuestionariopais {
         if (respuesta1.equals(idioma)) {
           Ascii.acertaste();
           a=a+1;
-          System.out.println("Puntos ganados esta ronda: "+a);
+         
         } else {
           Ascii.fallaste();
           System.out.println("Respuesta correcta: " + idioma);
@@ -354,7 +354,7 @@ public class cuestionariopais {
         if (respuesta2.equals(continente)) {
           Ascii.acertaste();
           a=a+1;
-          System.out.println("Puntos ganados esta ronda: "+a);
+         
         } else {
           Ascii.fallaste();
           System.out.println("Respuesta correcta: " + continente);
@@ -372,7 +372,7 @@ public class cuestionariopais {
         if (respuesta1.equals(idioma)) {
           Ascii.acertaste();
           a=a+1;
-          System.out.println("Puntos ganados esta ronda: "+a);
+         
         } else {
           Ascii.fallaste();
           System.out.println("Respuesta correcta: " + idioma);
@@ -386,7 +386,7 @@ public class cuestionariopais {
         if (respuesta2.equals(continente)) {
           Ascii.acertaste();
           a=a+1;
-          System.out.println("Puntos ganados esta ronda: "+a);
+         
         } else {
           Ascii.fallaste();
           System.out.println("Respuesta correcta: " + continente);
@@ -404,7 +404,7 @@ public class cuestionariopais {
         if (respuesta.equals(capital)) {
           Ascii.acertaste();
           a=a+1;
-          System.out.println("Puntos ganados esta ronda: "+a);
+         
         } else {
           Ascii.fallaste();
           System.out.println("Respuesta correcta: " + capital);
@@ -417,7 +417,7 @@ public class cuestionariopais {
         if (respuesta1.equals(idioma)) {
           Ascii.acertaste();
           a=a+1;
-          System.out.println("Puntos ganados esta ronda: "+a);
+         
         } else {
           Ascii.fallaste();
           System.out.println("Respuesta correcta: " + idioma);
@@ -431,7 +431,7 @@ public class cuestionariopais {
         if (respuesta2.equals(continente)) {
           Ascii.acertaste();
           a=a+1;
-          System.out.println("Puntos ganados esta ronda: "+a);
+         
         } else {
           Ascii.fallaste();
           System.out.println("Respuesta correcta: " + continente);
@@ -449,7 +449,7 @@ public class cuestionariopais {
         if (respuesta.equals(capital)) {
           Ascii.acertaste();
           a=a+1;
-          System.out.println("Puntos ganados esta ronda: "+a);
+         
         } else {
           Ascii.fallaste();
           System.out.println("Respuesta correcta: " + capital);
@@ -462,7 +462,7 @@ public class cuestionariopais {
         if (respuesta1.equals(idioma)) {
           Ascii.acertaste();
           a=a+1;
-          System.out.println("Puntos ganados esta ronda: "+a);
+         
         } else {
           Ascii.fallaste();
           System.out.println("Respuesta correcta: " + idioma);
@@ -476,7 +476,7 @@ public class cuestionariopais {
         if (respuesta2.equals(continente)) {
           Ascii.acertaste();
           a=a+1;
-          System.out.println("Puntos ganados esta ronda: "+a);
+         
         } else {
           Ascii.fallaste();
           System.out.println("Respuesta correcta: " + continente);
@@ -494,7 +494,7 @@ public class cuestionariopais {
         if (respuesta.equals(capital)) {
           Ascii.acertaste();
           a=a+1;
-          System.out.println("Puntos ganados esta ronda: "+a);
+         
         } else {
           Ascii.fallaste();
           System.out.println("Respuesta correcta: " + capital);
@@ -507,7 +507,7 @@ public class cuestionariopais {
         if (respuesta1.equals(idioma)) {
           Ascii.acertaste();
           a=a+1;
-          System.out.println("Puntos ganados esta ronda: "+a);
+         
         } else {
           Ascii.fallaste();
           System.out.println("Respuesta correcta: " + idioma);
@@ -521,7 +521,7 @@ public class cuestionariopais {
         if (respuesta2.equals(continente)) {
           Ascii.acertaste();
           a=a+1;
-          System.out.println("Puntos ganados esta ronda: "+a);
+         
         } else {
           Ascii.fallaste();
           System.out.println("Respuesta correcta: " + continente);
@@ -539,7 +539,7 @@ public class cuestionariopais {
         if (respuesta.equals(capital)) {
           Ascii.acertaste();
           a=a+1;
-          System.out.println("Puntos ganados esta ronda: "+a);
+         
         } else {
           Ascii.fallaste();
           System.out.println("Respuesta correcta: " + capital);
@@ -552,7 +552,7 @@ public class cuestionariopais {
         if (respuesta1.equals(idioma)) {
           Ascii.acertaste();
           a=a+1;
-          System.out.println("Puntos ganados esta ronda: "+a);
+         
         } else {
           Ascii.fallaste();
           System.out.println("Respuesta correcta: " + idioma);
@@ -566,7 +566,7 @@ public class cuestionariopais {
         if (respuesta2.equals(continente)) {
           Ascii.acertaste();
           a=a+1;
-          System.out.println("Puntos ganados esta ronda: "+a);
+         
         } else {
           Ascii.fallaste();
           System.out.println("Respuesta correcta: " + continente);
@@ -584,7 +584,7 @@ public class cuestionariopais {
         if (respuesta.equals(capital)) {
           Ascii.acertaste();
           a=a+1;
-          System.out.println("Puntos ganados esta ronda: "+a);
+         
         } else {
           Ascii.fallaste();
           System.out.println("Respuesta correcta: " + capital);
@@ -597,7 +597,7 @@ public class cuestionariopais {
         if (respuesta1.equals(idioma)) {
           Ascii.acertaste();
           a=a+1;
-          System.out.println("Puntos ganados esta ronda: "+a);
+         
         } else {
           Ascii.fallaste();
           System.out.println("Respuesta correcta: " + idioma);
@@ -611,7 +611,7 @@ public class cuestionariopais {
         if (respuesta2.equals(continente)) {
           Ascii.acertaste();
           a=a+1;
-          System.out.println("Puntos ganados esta ronda: "+a);
+         
         } else {
           Ascii.fallaste();
           System.out.println("Respuesta correcta: " + continente);
@@ -629,7 +629,7 @@ public class cuestionariopais {
         if (respuesta.equals(capital)) {
           Ascii.acertaste();
           a=a+1;
-          System.out.println("Puntos ganados esta ronda: "+a);
+         
         } else {
           Ascii.fallaste();
           System.out.println("Respuesta correcta: " + capital);
@@ -642,7 +642,7 @@ public class cuestionariopais {
         if (respuesta1.equals(idioma)) {
           Ascii.acertaste();
           a=a+1;
-          System.out.println("Puntos ganados esta ronda: "+a);
+         
         } else {
           Ascii.fallaste();
           System.out.println("Respuesta correcta: " + idioma);
@@ -656,7 +656,7 @@ public class cuestionariopais {
         if (respuesta2.equals(continente)) {
           Ascii.acertaste();
           a=a+1;
-          System.out.println("Puntos ganados esta ronda: "+a);
+         
         } else {
           Ascii.fallaste();
           System.out.println("Respuesta correcta: " + continente);
@@ -674,7 +674,7 @@ public class cuestionariopais {
         if (respuesta1.equals(idioma)) {
           Ascii.acertaste();
           a=a+1;
-          System.out.println("Puntos ganados esta ronda: "+a);
+         
         } else {
           Ascii.fallaste();
           System.out.println("Respuesta correcta: " + idioma);
@@ -688,7 +688,7 @@ public class cuestionariopais {
         if (respuesta2.equals(continente)) {
           Ascii.acertaste();
           a=a+1;
-          System.out.println("Puntos ganados esta ronda: "+a);
+         
         } else {
           Ascii.fallaste();
           System.out.println("Respuesta correcta: " + continente);
@@ -706,7 +706,7 @@ public class cuestionariopais {
         if (respuesta.equals(capital)) {
           Ascii.acertaste();
           a=a+1;
-          System.out.println("Puntos ganados esta ronda: "+a);
+         
         } else {
           Ascii.fallaste();
           System.out.println("Respuesta correcta: " + capital);
@@ -719,7 +719,7 @@ public class cuestionariopais {
         if (respuesta1.equals(idioma)) {
           Ascii.acertaste();
           a=a+1;
-          System.out.println("Puntos ganados esta ronda: "+a);
+         
         } else {
           Ascii.fallaste();
           System.out.println("Respuesta correcta: " + idioma);
@@ -733,7 +733,7 @@ public class cuestionariopais {
         if (respuesta2.equals(continente)) {
           Ascii.acertaste();
           a=a+1;
-          System.out.println("Puntos ganados esta ronda: "+a);
+         
         } else {
           Ascii.fallaste();
           System.out.println("Respuesta correcta: " + continente);
@@ -751,7 +751,7 @@ public class cuestionariopais {
         if (respuesta.equals(capital)) {
           Ascii.acertaste();
           a=a+1;
-          System.out.println("Puntos ganados esta ronda: "+a);
+         
         } else {
           Ascii.fallaste();
           System.out.println("Respuesta correcta: " + capital);
@@ -764,7 +764,7 @@ public class cuestionariopais {
         if (respuesta1.equals(idioma)) {
           Ascii.acertaste();
           a=a+1;
-          System.out.println("Puntos ganados esta ronda: "+a);
+         
         } else {
           Ascii.fallaste();
           System.out.println("Respuesta correcta: " + idioma);
@@ -778,7 +778,7 @@ public class cuestionariopais {
         if (respuesta2.equals(continente)) {
           Ascii.acertaste();
           a=a+1;
-          System.out.println("Puntos ganados esta ronda: "+a);
+         
         } else {
           Ascii.fallaste();
           System.out.println("Respuesta correcta: " + continente);
@@ -796,7 +796,7 @@ public class cuestionariopais {
         if (respuesta.equals(capital)) {
           Ascii.acertaste();
           a=a+1;
-          System.out.println("Puntos ganados esta ronda: "+a);
+         
         } else {
           Ascii.fallaste();
           System.out.println("Respuesta correcta: " + capital);
@@ -809,7 +809,7 @@ public class cuestionariopais {
         if (respuesta1.equals(idioma)) {
           Ascii.acertaste();
           a=a+1;
-          System.out.println("Puntos ganados esta ronda: "+a);
+         
         } else {
           Ascii.fallaste();
           System.out.println("Respuesta correcta: " + idioma);
@@ -823,7 +823,7 @@ public class cuestionariopais {
         if (respuesta2.equals(continente)) {
           Ascii.acertaste();
           a=a+1;
-          System.out.println("Puntos ganados esta ronda: "+a);
+         
         } else {
           Ascii.fallaste();
           System.out.println("Respuesta correcta: " + continente);
@@ -841,7 +841,7 @@ public class cuestionariopais {
         if (respuesta.equals(capital)) {
           Ascii.acertaste();
           a=a+1;
-          System.out.println("Puntos ganados esta ronda: "+a);
+         
         } else {
           Ascii.fallaste();
           System.out.println("Respuesta correcta: " + capital);
@@ -854,7 +854,7 @@ public class cuestionariopais {
         if (respuesta1.equals(idioma)) {
           Ascii.acertaste();
           a=a+1;
-          System.out.println("Puntos ganados esta ronda: "+a);
+         
         } else {
           Ascii.fallaste();
           System.out.println("Respuesta correcta: " + idioma);
@@ -868,7 +868,7 @@ public class cuestionariopais {
         if (respuesta2.equals(continente)) {
           Ascii.acertaste();
           a=a+1;
-          System.out.println("Puntos ganados esta ronda: "+a);
+         
         } else {
           Ascii.fallaste();
           System.out.println("Respuesta correcta: " + continente);
@@ -886,7 +886,7 @@ public class cuestionariopais {
         if (respuesta.equals(capital)) {
           Ascii.acertaste();
           a=a+1;
-          System.out.println("Puntos ganados esta ronda: "+a);
+         
         } else {
           Ascii.fallaste();
           System.out.println("Respuesta correcta: " + capital);
@@ -899,7 +899,7 @@ public class cuestionariopais {
         if (respuesta1.equals(idioma)) {
           Ascii.acertaste();
           a=a+1;
-          System.out.println("Puntos ganados esta ronda: "+a);
+         
         } else {
           Ascii.fallaste();
           System.out.println("Respuesta correcta: " + idioma);
@@ -913,7 +913,7 @@ public class cuestionariopais {
         if (respuesta2.equals(continente)) {
           Ascii.acertaste();
           a=a+1;
-          System.out.println("Puntos ganados esta ronda: "+a);
+         
         } else {
           Ascii.fallaste();
           System.out.println("Respuesta correcta: " + continente);
@@ -932,7 +932,7 @@ public class cuestionariopais {
         if (respuesta.equals(capital)) {
           Ascii.acertaste();
           a=a+1;
-          System.out.println("Puntos ganados esta ronda: "+a);
+         
         } else {
           Ascii.fallaste();
           System.out.println("Respuesta correcta: " + capital);
@@ -945,7 +945,7 @@ public class cuestionariopais {
         if (respuesta1.equals(idioma)) {
           Ascii.acertaste();
           a=a+1;
-          System.out.println("Puntos ganados esta ronda: "+a);
+         
         } else {
           Ascii.fallaste();
           System.out.println("Respuesta correcta: " + idioma);
@@ -959,7 +959,7 @@ public class cuestionariopais {
         if (respuesta2.equals(continente)) {
           Ascii.acertaste();
           a=a+1;
-          System.out.println("Puntos ganados esta ronda: "+a);
+         
         } else {
           Ascii.fallaste();
           System.out.println("Respuesta correcta: " + continente);
@@ -977,7 +977,7 @@ public class cuestionariopais {
         if (respuesta.equals(capital)) {
           Ascii.acertaste();
           a=a+1;
-          System.out.println("Puntos ganados esta ronda: "+a);
+         
         } else {
           Ascii.fallaste();
           System.out.println("Respuesta correcta: " + capital);
@@ -990,7 +990,7 @@ public class cuestionariopais {
         if (respuesta1.equals(idioma)) {
           Ascii.acertaste();
           a=a+1;
-          System.out.println("Puntos ganados esta ronda: "+a);
+         
         } else {
           Ascii.fallaste();
           System.out.println("Respuesta correcta: " + idioma);
@@ -1004,7 +1004,7 @@ public class cuestionariopais {
         if (respuesta2.equals(continente)) {
           Ascii.acertaste();
           a=a+1;
-          System.out.println("Puntos ganados esta ronda: "+a);
+         
         } else {
           Ascii.fallaste();
           System.out.println("Respuesta correcta: " + continente);
@@ -1022,7 +1022,7 @@ public class cuestionariopais {
         if (respuesta.equals(capital)) {
           Ascii.acertaste();
           a=a+1;
-          System.out.println("Puntos ganados esta ronda: "+a);
+         
         } else {
           Ascii.fallaste();
           System.out.println("Respuesta correcta: " + capital);
@@ -1035,7 +1035,7 @@ public class cuestionariopais {
         if (respuesta1.equals(idioma)) {
           Ascii.acertaste();
           a=a+1;
-          System.out.println("Puntos ganados esta ronda: "+a);
+         
         } else {
           Ascii.fallaste();
           System.out.println("Respuesta correcta: " + idioma);
@@ -1049,7 +1049,7 @@ public class cuestionariopais {
         if (respuesta2.equals(continente)) {
           Ascii.acertaste();
           a=a+1;
-          System.out.println("Puntos ganados esta ronda: "+a);
+         
         } else {
           Ascii.fallaste();
           System.out.println("Respuesta correcta: " + continente);
@@ -1067,7 +1067,7 @@ public class cuestionariopais {
         if (respuesta.equals(capital)) {
           Ascii.acertaste();
           a=a+1;
-          System.out.println("Puntos ganados esta ronda: "+a);
+         
         } else {
           Ascii.fallaste();
           System.out.println("Respuesta correcta: " + capital);
@@ -1080,7 +1080,7 @@ public class cuestionariopais {
         if (respuesta1.equals(idioma)) {
           Ascii.acertaste();
           a=a+1;
-          System.out.println("Puntos ganados esta ronda: "+a);
+         
         } else {
           Ascii.fallaste();
           System.out.println("Respuesta correcta: " + idioma);
@@ -1094,7 +1094,7 @@ public class cuestionariopais {
         if (respuesta2.equals(continente)) {
           Ascii.acertaste();
           a=a+1;
-          System.out.println("Puntos ganados esta ronda: "+a);
+         
         } else {
           Ascii.fallaste();
           System.out.println("Respuesta correcta: " + continente);

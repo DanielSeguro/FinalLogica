@@ -922,7 +922,7 @@ public class cuestionariopais {
     
       }
     
-      public static void rusia() {
+      public static int rusia(int a) {
         Banderas.rusia();
         Ascii.capital();
         System.out.print("Su respuesta es: ");
@@ -931,6 +931,8 @@ public class cuestionariopais {
         respuesta = respuesta.toUpperCase();
         if (respuesta.equals(capital)) {
           Ascii.acertaste();
+          a=a+1;
+          System.out.println("Puntos ganados esta ronda: "+a);
         } else {
           Ascii.fallaste();
           System.out.println("Respuesta correcta: " + capital);
@@ -942,6 +944,8 @@ public class cuestionariopais {
         respuesta1 = respuesta1.toUpperCase();
         if (respuesta1.equals(idioma)) {
           Ascii.acertaste();
+          a=a+1;
+          System.out.println("Puntos ganados esta ronda: "+a);
         } else {
           Ascii.fallaste();
           System.out.println("Respuesta correcta: " + idioma);
@@ -954,14 +958,16 @@ public class cuestionariopais {
         respuesta2 = respuesta2.toUpperCase();
         if (respuesta2.equals(continente)) {
           Ascii.acertaste();
+          a=a+1;
+          System.out.println("Puntos ganados esta ronda: "+a);
         } else {
           Ascii.fallaste();
           System.out.println("Respuesta correcta: " + continente);
         }
-    
+        return a;
       }
     
-      public static void sri_lanka() {
+      public static int sri_lanka(int a) {
         Banderas.sri_lanka();
         Ascii.capital();
         System.out.print("Su respuesta es: ");
@@ -970,6 +976,8 @@ public class cuestionariopais {
         respuesta = respuesta.toUpperCase();
         if (respuesta.equals(capital)) {
           Ascii.acertaste();
+          a=a+1;
+          System.out.println("Puntos ganados esta ronda: "+a);
         } else {
           Ascii.fallaste();
           System.out.println("Respuesta correcta: " + capital);
@@ -981,6 +989,8 @@ public class cuestionariopais {
         respuesta1 = respuesta1.toUpperCase();
         if (respuesta1.equals(idioma)) {
           Ascii.acertaste();
+          a=a+1;
+          System.out.println("Puntos ganados esta ronda: "+a);
         } else {
           Ascii.fallaste();
           System.out.println("Respuesta correcta: " + idioma);
@@ -993,14 +1003,16 @@ public class cuestionariopais {
         respuesta2 = respuesta2.toUpperCase();
         if (respuesta2.equals(continente)) {
           Ascii.acertaste();
+          a=a+1;
+          System.out.println("Puntos ganados esta ronda: "+a);
         } else {
           Ascii.fallaste();
           System.out.println("Respuesta correcta: " + continente);
         }
-    
+        return a;
       }
     
-      public static void gambia() {
+      public static int gambia(int a) {
         Banderas.gambia();
         Ascii.capital();
         System.out.print("Su respuesta es: ");
@@ -1009,6 +1021,8 @@ public class cuestionariopais {
         respuesta = respuesta.toUpperCase();
         if (respuesta.equals(capital)) {
           Ascii.acertaste();
+          a=a+1;
+          System.out.println("Puntos ganados esta ronda: "+a);
         } else {
           Ascii.fallaste();
           System.out.println("Respuesta correcta: " + capital);
@@ -1020,6 +1034,8 @@ public class cuestionariopais {
         respuesta1 = respuesta1.toUpperCase();
         if (respuesta1.equals(idioma)) {
           Ascii.acertaste();
+          a=a+1;
+          System.out.println("Puntos ganados esta ronda: "+a);
         } else {
           Ascii.fallaste();
           System.out.println("Respuesta correcta: " + idioma);
@@ -1032,14 +1048,16 @@ public class cuestionariopais {
         respuesta2 = respuesta2.toUpperCase();
         if (respuesta2.equals(continente)) {
           Ascii.acertaste();
+          a=a+1;
+          System.out.println("Puntos ganados esta ronda: "+a);
         } else {
           Ascii.fallaste();
           System.out.println("Respuesta correcta: " + continente);
         }
-    
+        return a;
       }
     
-      public static void chile() {
+      public static int chile(int a) {
         Banderas.chile();
         Ascii.capital();
         System.out.print("Su respuesta es: ");
@@ -1048,6 +1066,8 @@ public class cuestionariopais {
         respuesta = respuesta.toUpperCase();
         if (respuesta.equals(capital)) {
           Ascii.acertaste();
+          a=a+1;
+          System.out.println("Puntos ganados esta ronda: "+a);
         } else {
           Ascii.fallaste();
           System.out.println("Respuesta correcta: " + capital);
@@ -1059,6 +1079,8 @@ public class cuestionariopais {
         respuesta1 = respuesta1.toUpperCase();
         if (respuesta1.equals(idioma)) {
           Ascii.acertaste();
+          a=a+1;
+          System.out.println("Puntos ganados esta ronda: "+a);
         } else {
           Ascii.fallaste();
           System.out.println("Respuesta correcta: " + idioma);
@@ -1071,10 +1093,13 @@ public class cuestionariopais {
         respuesta2 = respuesta2.toUpperCase();
         if (respuesta2.equals(continente)) {
           Ascii.acertaste();
+          a=a+1;
+          System.out.println("Puntos ganados esta ronda: "+a);
         } else {
           Ascii.fallaste();
           System.out.println("Respuesta correcta: " + continente);
         }
+        return a;
       }
     }
   

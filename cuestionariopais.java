@@ -394,7 +394,7 @@ public class cuestionariopais {
         return a;
       }
     
-      public static void romania() {
+      public static int romania(int a) {
         Banderas.romania();
         Ascii.capital();
         System.out.print("Su respuesta es: ");
@@ -403,6 +403,8 @@ public class cuestionariopais {
         respuesta = respuesta.toUpperCase();
         if (respuesta.equals(capital)) {
           Ascii.acertaste();
+          a=a+1;
+          System.out.println("Puntos ganados esta ronda: "+a);
         } else {
           Ascii.fallaste();
           System.out.println("Respuesta correcta: " + capital);
@@ -414,6 +416,8 @@ public class cuestionariopais {
         respuesta1 = respuesta1.toUpperCase();
         if (respuesta1.equals(idioma)) {
           Ascii.acertaste();
+          a=a+1;
+          System.out.println("Puntos ganados esta ronda: "+a);
         } else {
           Ascii.fallaste();
           System.out.println("Respuesta correcta: " + idioma);
@@ -426,13 +430,16 @@ public class cuestionariopais {
         respuesta2 = respuesta2.toUpperCase();
         if (respuesta2.equals(continente)) {
           Ascii.acertaste();
+          a=a+1;
+          System.out.println("Puntos ganados esta ronda: "+a);
         } else {
           Ascii.fallaste();
           System.out.println("Respuesta correcta: " + continente);
         }
+        return a;
       }
     
-      public static void alemania() {
+      public static int alemania(int a) {
         Banderas.alemania();
         Ascii.capital();
         System.out.print("Su respuesta es: ");
@@ -441,6 +448,8 @@ public class cuestionariopais {
         respuesta = respuesta.toUpperCase();
         if (respuesta.equals(capital)) {
           Ascii.acertaste();
+          a=a+1;
+          System.out.println("Puntos ganados esta ronda: "+a);
         } else {
           Ascii.fallaste();
           System.out.println("Respuesta correcta: " + capital);
@@ -452,6 +461,8 @@ public class cuestionariopais {
         respuesta1 = respuesta1.toUpperCase();
         if (respuesta1.equals(idioma)) {
           Ascii.acertaste();
+          a=a+1;
+          System.out.println("Puntos ganados esta ronda: "+a);
         } else {
           Ascii.fallaste();
           System.out.println("Respuesta correcta: " + idioma);
@@ -464,13 +475,16 @@ public class cuestionariopais {
         respuesta2 = respuesta2.toUpperCase();
         if (respuesta2.equals(continente)) {
           Ascii.acertaste();
+          a=a+1;
+          System.out.println("Puntos ganados esta ronda: "+a);
         } else {
           Ascii.fallaste();
           System.out.println("Respuesta correcta: " + continente);
         }
+        return a;
       }
     
-      public static void japon() {
+      public static int japon(int a) {
         Banderas.japon();
         Ascii.capital();
         System.out.print("Su respuesta es: ");
@@ -479,6 +493,8 @@ public class cuestionariopais {
         respuesta = respuesta.toUpperCase();
         if (respuesta.equals(capital)) {
           Ascii.acertaste();
+          a=a+1;
+          System.out.println("Puntos ganados esta ronda: "+a);
         } else {
           Ascii.fallaste();
           System.out.println("Respuesta correcta: " + capital);
@@ -490,6 +506,8 @@ public class cuestionariopais {
         respuesta1 = respuesta1.toUpperCase();
         if (respuesta1.equals(idioma)) {
           Ascii.acertaste();
+          a=a+1;
+          System.out.println("Puntos ganados esta ronda: "+a);
         } else {
           Ascii.fallaste();
           System.out.println("Respuesta correcta: " + idioma);
@@ -502,10 +520,13 @@ public class cuestionariopais {
         respuesta2 = respuesta2.toUpperCase();
         if (respuesta2.equals(continente)) {
           Ascii.acertaste();
+          a=a+1;
+          System.out.println("Puntos ganados esta ronda: "+a);
         } else {
           Ascii.fallaste();
           System.out.println("Respuesta correcta: " + continente);
         }
+        return a;
       }
     
       public static void aland() {

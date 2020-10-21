@@ -3,9 +3,7 @@ public class ModosDeJuego{
   
 	public static void juego1(){
 		int puntuacion = 0;
-		int acumulado = 0;
-
-
+		
 		int opcion = 0;
 		do {
 			Ascii.paises();
